@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "lib": ["es2015", "es2016", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src"],
+      "@components/*": ["./components/*"],
+      "@containers/*": ["./containers/*"],
+      "@helpers/*": ["./helpers/*"],
+      "@local/*": ["./local/*"],
+      "@reducers/*": ["./reducers/*"],
+      "@selectors/*": ["./selectors/*"],
+      "@store/*": ["./store/*"],
+      "@styles/*": ["./styles/*"],
+      "@routes/*": ["./routes/*"]
+    }
+  },
+  "exclude": ["node_modules", "public"]
+}

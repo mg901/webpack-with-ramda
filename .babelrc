@@ -1,0 +1,39 @@
+{
+  "presets": ["@babel/env", "@babel/react"],
+  "plugins": [
+    "lodash",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "@components": "./src/components",
+          "@containers": "./src/containers",
+          "@helpers": "./src/helpers",
+          "@locale": "./src/locale",
+          "@reducers": "./src/reducers",
+          "@resources": "./src/resources",
+          "@selectors": "./src/selectors",
+          "@store": "./src/store",
+          "@styles": "./src/styles",
+          "@routes": "./src/routes"
+        }
+      }
+    ],
+    "@babel/plugin-syntax-import-meta",
+    "@babel/plugin-transform-async-to-generator",
+    "@babel/plugin-proposal-export-default-from",
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ],
+    "react-hot-loader/babel"
+  ],
+  "env": {
+    "production": {
+      "plugins": ["@babel/plugin-transform-react-constant-elements"]
+    }
+  }
+}

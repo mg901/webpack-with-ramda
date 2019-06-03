@@ -1,0 +1,11 @@
+{
+  "ignore": [".git", "node_modules/**/node_modules", "src/*"],
+  "watch": [
+    "webpack/*",
+    "webpack.config.js",
+    ".babelrc",
+    ".eslintrc",
+    "jsconfig.json",
+    "jest.config.js"
+  ]
+}
