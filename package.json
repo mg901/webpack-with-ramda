@@ -86,7 +86,7 @@
     "lodash": "4.17.11",
     "material-ui": "1.0.0-beta.38",
     "material-ui-icons": "1.0.0-beta.17",
-    "papaparse": "^4.6.0",
+    "papaparse": "^5.2.0",
     "promise-polyfill": "8.1.0",
     "prop-types": "15.5.10",
     "react": "16.8.3",
