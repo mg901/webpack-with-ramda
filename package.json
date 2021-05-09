@@ -83,7 +83,7 @@
     "i18next": "11.3.6",
     "jsrsasign": "8.0.4",
     "keycode": "2.2.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.21",
     "material-ui": "1.0.0-beta.38",
     "material-ui-icons": "1.0.0-beta.17",
     "papaparse": "^4.6.0",
